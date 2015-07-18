@@ -1,8 +1,15 @@
 {
     "name": "lasso-clean-css",
     "version": "0.0.1",
-    "description": "Lasso plugin to minify CSS using clean-css",
-    "keywords": ["lasso", "plugin", "minify", "minifier", "clean-css"],
+    "description": "Lasso.js plugin to minify CSS using clean-css",
+    "keywords": [
+        "lasso",
+        "plugin",
+        "minify",
+        "minifier",
+        "css",
+        "clean-css"
+    ],
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +22,8 @@
         "name": "Yoni Medoff",
         "email": "yonimedoff@gmail.com"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "clean-css": "^3.3.6"
+    }
 }
