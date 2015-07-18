@@ -1,0 +1,19 @@
+{
+    "name": "lasso-clean-css",
+    "version": "0.0.1",
+    "description": "Lasso plugin to minify CSS using clean-css",
+    "keywords": ["lasso", "plugin", "minify", "minifier", "clean-css"],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yomed/lasso-clean-css.git"
+    },
+    "author": {
+        "name": "Yoni Medoff",
+        "email": "yonimedoff@gmail.com"
+    },
+    "license": "ISC"
+}
