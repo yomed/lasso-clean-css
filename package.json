@@ -1,6 +1,6 @@
 {
     "name": "lasso-clean-css",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Lasso.js plugin to minify CSS using clean-css",
     "keywords": [
         "lasso",
