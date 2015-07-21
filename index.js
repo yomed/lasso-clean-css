@@ -7,7 +7,7 @@ function minify(src, options) {
     return new CleanCSS(options).minify(src).styles;
 }
 
-exports = module.exports = function (lasso, config) {
+module.exports = function (lasso, config) {
     lasso.addTransform({
         contentType: 'css',
         name: module.id,

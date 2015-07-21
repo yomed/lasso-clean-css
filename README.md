@@ -6,7 +6,7 @@
 
 ## Installation
 
-```text
+```bash
 npm install lasso-clean-css --save
 ```
 
@@ -22,7 +22,9 @@ options can be passed through `config`. The revelant portion of configuration sh
         "lasso-less",
         {
             "plugin": "lasso-clean-css",
-            "config": {...}
+            "config": {
+                "aggressiveMerging": false
+            }
         }
     ],
     "minify": false
