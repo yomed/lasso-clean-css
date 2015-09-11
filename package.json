@@ -24,6 +24,6 @@
     },
     "license": "ISC",
     "dependencies": {
-        "clean-css": "^3.3.6"
+        "clean-css": "^3.4.1"
     }
 }
