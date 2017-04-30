@@ -1,10 +1,9 @@
+'use strict';
+
 var CleanCSS = require('clean-css');
 
 function minify(src, options) {
-    if (!options) {
-        options = {};
-    }
-    return new CleanCSS(options).minify(src).styles;
+    return new CleanCSS(options || {}).minify(src).styles;
 }
 
 module.exports = function (lasso, config) {
