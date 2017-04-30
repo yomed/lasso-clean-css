@@ -22,7 +22,7 @@
     "name": "Yoni Medoff",
     "email": "yonimedoff@gmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "clean-css": "^4.0.12"
   }
